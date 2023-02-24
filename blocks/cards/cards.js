@@ -1,6 +1,7 @@
 import { createOptimizedPicture } from '../../scripts/lib-franklin.js';
 
 export default function decorate(block) {
+  debugger
   /* change to ul, li */
   const ul = document.createElement('ul');
   [...block.children].forEach((row) => {

@@ -235,3 +235,17 @@ main .section[data-section-status='initialized'] {
 main .section.highlight {
   background-color: var(--highlight-background-color);
 }
+
+main .section.rewards-container{
+  text-align: center;
+}
+
+main .section.rewards-container h2{
+  font-size: 2.5rem;
+  margin-top: .5rem;
+  margin-bottom: 1.5rem;
+}
+main .section.rewards-container p{
+  margin: 0;
+  font-size: 16px;
+}
